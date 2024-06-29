@@ -3,3 +3,4 @@
 *.npz
 *.dae
 logs/*/*.tar
+!logs/*/200000.tar
