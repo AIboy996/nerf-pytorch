@@ -30,16 +30,21 @@ points3D.bin
 
 数据转换、模型训练、模型测试的过程都写在脚本`main.sh`当中。
 
+训练好的模型在`logs/astronaut/2000000.tar`和`logs/lego_car_dense/2000000.tar`。更多的训练日志见`logs/*`。
+
 ## 结果
 
-渲染出了两个视频。
-
+最终渲染出了两个视频：
 
 - 宇航员小摆件：效果很差，一方面可能是因为拍摄的过程中移动了物体。另外一方面可能睡因为训练数据很少。
 
-![](logs/astronaut/astronaut_spiral_200000_rgb.mp4)
+<video controls>
+  <source src="logs/astronaut/astronaut_spiral_200000_rgb.mp4" type="video/mp4">
+</video>
+
 
 - 乐高小汽车：效果还可以，吸取了上次的教训我们这次没有移动物体，并且加大了训练数据量。还选取了和桌子对比度更高的黑色小汽车。
 
-![](logs/lego_car_dense/lego_car_dense_spiral_200000_rgb.mp4)
-
+<video controls>
+  <source src="logs/lego_car_dense/lego_car_dense_spiral_200000_rgb.mp4" type="video/mp4">
+</video>
