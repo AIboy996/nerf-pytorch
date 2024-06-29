@@ -1,6 +1,6 @@
 **/.ipynb_checkpoints
 **/__pycache__
-*.mp4
 *.npz
 *.dae
-logs/*
+logs/*/*.tar
+!logs/*/200000.tar
