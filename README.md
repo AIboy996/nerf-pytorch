@@ -16,7 +16,7 @@
 
 使用[COLMAP](https://github.com/colmap/colmap)提供的GUI软件进行自动进行（sparse以及dense）点云重建：
 
-![](https://www.researchgate.net/publication/334216535/figure/fig4/AS:776772824096769@1562208481429/A-sample-of-typical-workflow-offered-by-COLMAP-GUI.png)
+![](assets/2024-06-29-23-49-31.png)
 
 可以得到：
 ```
