@@ -38,13 +38,9 @@ points3D.bin
 
 - 宇航员小摆件：效果很差，一方面可能是因为拍摄的过程中移动了物体。另外一方面可能睡因为训练数据很少。
 
-<video controls>
-  <source src="logs/astronaut/astronaut_spiral_200000_rgb.mp4" type="video/mp4">
-</video>
+![](assets/astronaut.gif)
 
 
 - 乐高小汽车：效果还可以，吸取了上次的教训我们这次没有移动物体，并且加大了训练数据量。还选取了和桌子对比度更高的黑色小汽车。
 
-<video controls>
-  <source src="logs/lego_car_dense/lego_car_dense_spiral_200000_rgb.mp4" type="video/mp4">
-</video>
+![](assets/lego_car.gif)

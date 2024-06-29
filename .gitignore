@@ -4,3 +4,4 @@
 *.dae
 logs/*/*.tar
 !logs/*/200000.tar
+.DS_Store
